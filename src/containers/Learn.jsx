@@ -9,7 +9,7 @@ import ingredients from '../data/ingredients.json';
 import tools from '../data/tools.json';
 import results from '../data/results.json';
 
-const Learn = () => {
+const Learn = ({ stepIndex, setStepIndex, setTutorialShow, tutorialInfo, setTutorialIngredients }) => {
     const [data, setData] = useState(ingredients['ingredients']);
     const [ingredientsList, setIngredients] = useState([]);
     const [selected, setSelected] = useState(-1)
@@ -31,6 +31,10 @@ const Learn = () => {
             }
             setProcessed(true);
             setShow(true);
+            if (tutorialInfo) {
+                setStepIndex(stepIndex + 1)
+                setTutorialShow(true)
+            }
         }
     }
 
@@ -40,6 +44,10 @@ const Learn = () => {
         setTool(tools['tools'][nextIndex]);
         setToolIndex(nextIndex);
         setIngredients([]);
+        if (tutorialInfo) {
+            setStepIndex(stepIndex + 1)
+            setTutorialShow(true)
+        }
     }
 
     const handleClose = () => setShow(false);
@@ -60,7 +68,7 @@ const Learn = () => {
                 <Col className="equal">
                     {data.slice(0, 6).map((item, index) => {
                         return (item["ingredients"] ? <></> : <><Ingredient processed={processed} data={data} name={item.name} img={item.img} index={index} selected={selected}
-                            setSelected={setSelected} ingredients={ingredientsList} setIngredients={setIngredients} /> {<br></br> && index % 3 == 0}</>)
+                            tutorialInfo={tutorialInfo} setTutorialIngredients={setTutorialIngredients} setSelected={setSelected} ingredients={ingredientsList} setIngredients={setIngredients} /> {<br></br> && index % 3 == 0}</>)
                     })}
                 </Col>
                 <Col className="d-flex flex-column justify-content-center align-items-center">
@@ -72,8 +80,8 @@ const Learn = () => {
                     </div>
                     <Row class="p-2">
                         <Col>
-                            {processed && !done ? <NavButton text="Next" onClick={nextTool} /> : (!done && (
-                                <NavButton text={tool['action']} onClick={handleProcess} />
+                            {processed && !done ? <NavButton disabled={tutorialInfo && tutorialInfo.disableTool} text="Next" onClick={nextTool} /> : (!done && (
+                                <NavButton text={tool['action']} disabled={tutorialInfo && tutorialInfo.disableTool} onClick={handleProcess} />
                             ))}
                         </Col>
                         {done && <><NavButton text={"Restart"} onClick={() => window.location.reload()} />
@@ -83,7 +91,7 @@ const Learn = () => {
                 <Col className="equal">
                     {data.slice(6, 12).map((item, index) => {
                         return (<><Ingredient processed={processed} data={data} name={item.name} img={item.img} index={index + 6} selected={selected}
-                            setSelected={setSelected} ingredients={ingredientsList} setIngredients={setIngredients} /> {<br></br> && index % 2 == 1}</>)
+                            tutorialInfo={tutorialInfo} setTutorialIngredients={setTutorialIngredients} setSelected={setSelected} ingredients={ingredientsList} setIngredients={setIngredients} /> {<br></br> && index % 2 == 1}</>)
                     })}
                 </Col>
             </Row>

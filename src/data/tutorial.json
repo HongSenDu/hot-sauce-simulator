@@ -1,0 +1,63 @@
+{
+    "steps": [{
+            "title": "Introduction",
+            "instructions": "Click on any ingredient to read more about it. First drag the cayenne pepper to the pan \n * Note, every object besides the one mentioned will be disabled",
+            "object": ["Cayenne Pepper"],
+            "disableTool": true
+        },
+        {
+            "title": "Dragging items",
+            "instructions": "Now drag the sugar to the pan",
+            "object": ["Sugar"],
+            "disableTool": true
+        },
+        {
+            "title": "Cooking",
+            "instructions": "Great! Now lets cook it",
+            "object": [],
+            "disableTool": false
+        }, 
+        {
+            "title": "Moving to next step",
+            "instructions": "Cool! Let's move on to blending now",
+            "object": [],
+            "disableTool": false
+        },
+        {
+            "title": "Blending the blend",
+            "instructions": "Cool! Let's move on to blending now. Let's add the blend and water to it.",
+            "object": ["Blend", "Water"],
+            "disableTool": true
+        },
+        {
+            "title": "Blend",
+            "instructions": "Let's blend the mixture",
+            "object": [],
+            "disableTool": false
+        },
+        {
+            "title": "Moving to bottling",
+            "instructions": "Cool! Let's move on to bottling now",
+            "object": [],
+            "disableTool": false
+        },
+        {
+            "title": "Add mixture to bottle",
+            "instructions": "Let's add our hot sauce mixture to the bottle",
+            "object": ["Hot Sauce Liquid"],
+            "disableTool": true
+        },
+        {
+            "title": "Let's fill it now.",
+            "instructions": "Click fill.",
+            "object": [],
+            "disableTool": false
+        },
+        {
+            "title": "Congrats!",
+            "instructions": "You finished the tutorial! Now click restart to explore or quiz to test yourself.",
+            "object": [],
+            "disableTool": false
+        }
+    ]
+}

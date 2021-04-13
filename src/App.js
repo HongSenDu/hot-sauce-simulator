@@ -6,6 +6,7 @@ import Home from './containers/Home';
 import Learn from './containers/Learn';
 import Quiz from './containers/Quiz';
 import EndQuiz from './containers/EndQuiz';
+import Tutorial from './containers/Tutorial';
 
 function App() {
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -15,7 +16,7 @@ function App() {
       {/* <NavBar /> */}
       <Switch>
         <Route exact path='/' component={Home} />
-        {/* <Route exact path='/tutorial' component={Tutorial} /> */}
+        <Route exact path='/tutorial' component={Tutorial} />
         <Route path='/learn' component={Learn} />
         <Route exact path='/quiz'>
           <Quiz correctAnswers={correctAnswers} setCorrectAnswers={setCorrectAnswers} />
