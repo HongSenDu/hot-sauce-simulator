@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.equal {
+  z-index: 100;
+  overflow: visible;
+}
+
+.trans {
+  position:absolute;
+  background-color: black;
+  height:100%;
+  width:15vw;
+  padding:50%;
+  opacity:0;
+  z-index:10000;
 }

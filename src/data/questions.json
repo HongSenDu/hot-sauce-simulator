@@ -1,0 +1,47 @@
+{
+    "questions": [{
+        "img": "https://hosstools.com/wp-content/uploads/2020/10/long-slim-cayenne-pepper.jpg",
+        "options": [
+            "Jalepeno",
+            "Bell",
+            "Ghost",
+            "Cayenne"
+        ],
+        "question": "What type of pepper is this?",
+        "answer": "Cayenne",
+        "explination": "This is a Cayenne pepper. They have a green stem."
+    }, {
+        "img": "https://tobacconistuniversity.org/images/spice-scale-wm.png",
+        "options": [
+            "The concentration of capsaicinoids",
+            "The number of seeds within a pepper",
+            "A spice taste test score assigned by an expert",
+            "The redness of a given pepper"
+        ],
+        "question": "What determines a pepper's Scoville scale score?",
+        "answer": "The concentration of capsaicinoids",
+        "explination": "The Scoville scale is a measurement of the pungency of chili peppers, as recorded in Scoville Heat Units (SHU), based on the concentration of capsaicinoids, among which capsaicin is the predominant component."
+    }, {
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20190628-delish-homemade-apple-cider-ehg-432-square-1562802933.png?crop=1xw:1xh;center,top&resize=480:*",
+        "options": [
+            "Sweet Hot Sauce",
+            "Spicy Hot Sauce",
+            "Tangy Hot Sauce",
+            "Salty Hot Sauce"
+        ],
+        "question": "What kind of hot sauce does apple cider pair best with?",
+        "answer": "Sweet Hot Sauce",
+        "explination": "Since this vinegar is derived from apple cider, it has a sweeter, fruitier taste. It also has an incredibly distinctive flavor (as anyone who’s tried Bragg Organic Apple Cider Vinegar straight-up can attest), while still being softer than white vinegar. Apple cider vinegar pairs best with a sweeter hot sauce. For example, those containing fruit like mango or pineapple."
+    }, {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGRRdPcyEcIULReluAgmROeXfG1oMFwnPdw&usqp=CAU",
+        "options": [
+            "Ghost Pepper",
+            "Carolina Reaper",
+            "Habanero Pepper",
+            "Scorpion Pepper"
+        ],
+        "question": "Which pepper has the higest scoville scale score?",
+        "answer": "Carolina Reaper",
+        "explination": "Bred in a Rock Hill, South Carolina, greenhouse by 'Smokin' Ed Currie, proprietor of the PuckerButt Pepper Company in Fort Mill, the Carolina Reaper was certified as the world's hottest chili pepper by Guinness World Records on August 11, 2017."
+    }]
+}

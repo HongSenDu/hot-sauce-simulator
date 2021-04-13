@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Home from './containers/Home';
+import Learn from './containers/Learn';
+import Quiz from './containers/Quiz';
+import EndQuiz from './containers/EndQuiz';
 
 function App() {
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      {/* <NavBar /> */}
+      <Switch>
+        <Route exact path='/' component={Home} />
+        {/* <Route exact path='/tutorial' component={Tutorial} /> */}
+        <Route path='/learn' component={Learn} />
+        <Route exact path='/quiz'>
+          <Quiz correctAnswers={correctAnswers} setCorrectAnswers={setCorrectAnswers} />
+        </Route>
+        <Route exact path='/quiz-end'>
+          <EndQuiz correctAnswers={correctAnswers} />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
-
 export default App;
