@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hot-sauce-simulator/static/css/main.a5d4b224.chunk.css",
+    "main.js": "/hot-sauce-simulator/static/js/main.5a005a09.chunk.js",
+    "main.js.map": "/hot-sauce-simulator/static/js/main.5a005a09.chunk.js.map",
+    "runtime-main.js": "/hot-sauce-simulator/static/js/runtime-main.2681c80e.js",
+    "runtime-main.js.map": "/hot-sauce-simulator/static/js/runtime-main.2681c80e.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/hot-sauce-simulator/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.6bf07170.chunk.js": "/hot-sauce-simulator/static/js/2.6bf07170.chunk.js",
+    "static/js/2.6bf07170.chunk.js.map": "/hot-sauce-simulator/static/js/2.6bf07170.chunk.js.map",
+    "static/js/3.0fb66a1f.chunk.js": "/hot-sauce-simulator/static/js/3.0fb66a1f.chunk.js",
+    "static/js/3.0fb66a1f.chunk.js.map": "/hot-sauce-simulator/static/js/3.0fb66a1f.chunk.js.map",
+    "index.html": "/hot-sauce-simulator/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/hot-sauce-simulator/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.a5d4b224.chunk.css.map": "/hot-sauce-simulator/static/css/main.a5d4b224.chunk.css.map",
+    "static/js/2.6bf07170.chunk.js.LICENSE.txt": "/hot-sauce-simulator/static/js/2.6bf07170.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2681c80e.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.6bf07170.chunk.js",
+    "static/css/main.a5d4b224.chunk.css",
+    "static/js/main.5a005a09.chunk.js"
+  ]
+}
