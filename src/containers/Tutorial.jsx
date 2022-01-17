@@ -26,17 +26,14 @@ const Tutorial = () => {
     return (
         <>
             <Modal show={show} onHide={handleClose} className="d-flex justify-content-center align-items-center">
-                <Modal.Header className="text-center" closeButton>
-                    <Modal.Title className="p-3 text-center">{steps[stepIndex].title}</Modal.Title>
+                <Modal.Header className="p-0 text-center" closeButton>
+                    <Modal.Title className="p-3 m-auto text-center">{steps[stepIndex].title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="text-center">
-                    {steps[stepIndex].instructions}
+                    <p dangerouslySetInnerHTML={{ __html: steps[stepIndex].instructions }} />
                 </Modal.Body>
             </Modal>
-            <Learn stepIndex={stepIndex} setTutorialShow={setShow} setStepIndex={setStepIndex} tutorialInfo={steps[stepIndex]} setTutorialIngredients={setTutorialIngredients}></Learn>
-            <Button variant="success" size="lg" onClick={handleShow}>
-                Show Tutorial Step Again
-            </Button>
+            <Learn tutorialShow={setShow} stepIndex={stepIndex} setTutorialShow={setShow} setStepIndex={setStepIndex} tutorialInfo={steps[stepIndex]} setTutorialIngredients={setTutorialIngredients}></Learn>
         </>
     );
 }

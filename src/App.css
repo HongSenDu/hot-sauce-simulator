@@ -53,11 +53,49 @@ img {
 }
 
 .trans {
-  position:absolute;
+  position: absolute;
   background-color: black;
-  height:100%;
-  width:15vw;
-  padding:50%;
-  opacity:0;
-  z-index:10000;
+  height: 100%;
+  width: 15vw;
+  padding: 50%;
+  opacity: 0;
+  z-index: 101;
+}
+
+.card-body {
+  padding: 0 !important;
+  z-index: 1;
+}
+
+.modal-header .close {
+  padding: 0 !important;
+  position: absolute;
+  top: 7%;
+  left:2%;
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+.bot {
+  transform: translateY(150%);
+}
+
+.top {
+  position:absolute;
+  top:5%;
+  word-wrap: break-word;
+}
+.modal-content {
+  width: 90%;
+  margin: auto;
+  
+}
+
+.top-but {
+  width:100px;
+}
+.middle-but {
+  width:150px;
 }

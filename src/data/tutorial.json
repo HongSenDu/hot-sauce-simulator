@@ -1,61 +1,61 @@
 {
     "steps": [{
-            "title": "Introduction",
-            "instructions": "Click on any ingredient to read more about it. First drag the cayenne pepper to the pan \n * Note, every object besides the one mentioned will be disabled",
-            "object": ["Cayenne Pepper"],
+            "title": "Welcome to the tutorial!",
+            "instructions": "We will be creating a <b>simple pan-made hot sauce</b>. <br>Click on any ingredient to read more about it. <br> <br> Let's begin by dragging the <b>cayenne pepper</b> to the pan. \n \n<b>Cayenne pepper</b> is considered a medium-hot pepper with a Scoville score of 30,000-50,000, <b>based on the concentration of capsaicinoids</b>. \n \n * Note, every object besides the one mentioned will be disabled",
+            "object": ["Cayenne"],
             "disableTool": true
         },
         {
-            "title": "Dragging items",
-            "instructions": "Now drag the sugar to the pan",
-            "object": ["Sugar"],
+            "title": "Vinegar and Water",
+            "instructions": "Great! Now drag the <b>vinegar</b> and <b>water</b> to the pan. \n \n <b>Vinegar</b> acts as the foundation for many hot sauces because of its preserving and acidic properties. \n \n <b>Water</b> helps the pepper and vinegar simmer, riching their flavor \n \n It is okay to keep the pepper seeds. <b>Keeping the seeds is up to personal preference about the texture of the sauce.</b>",
+            "object": ["Vinegar", "Water"],
             "disableTool": true
         },
         {
-            "title": "Cooking",
-            "instructions": "Great! Now lets cook it",
-            "object": [],
-            "disableTool": false
-        }, 
-        {
-            "title": "Moving to next step",
-            "instructions": "Cool! Let's move on to blending now",
+            "title": "Cooking time!",
+            "instructions": "Now lets <b>cook</b> the cayenne pepper and vinegar mix! \n \n Normally, the mixture is cooked for around <b>10-15 minutes on medium high heat</b> and simmered on low heat",
             "object": [],
             "disableTool": false
         },
         {
-            "title": "Blending the blend",
-            "instructions": "Cool! Let's move on to blending now. Let's add the blend and water to it.",
-            "object": ["Blend", "Water"],
+            "title": "To Blending",
+            "instructions": "Nice! We have removed the blend from the heat and transferred it to a pan. \n \n Let's move on to <b>blending</b> now",
+            "object": [],
+            "disableTool": false
+        },
+        {
+            "title": "Preparing for Blending",
+            "instructions": "Add the <b>blend</b> to the blender. \n \n Let's also add some more <b>vinegar</b> to make the taste more acidic, and to make sure it lasts longer. \n \n Let's add <b>salt</b> too to boost the flavors!",
+            "object": ["Blend", "Vinegar", "Salt"],
             "disableTool": true
         },
         {
-            "title": "Blend",
-            "instructions": "Let's blend the mixture",
+            "title": "Blending time!",
+            "instructions": "Let's <b>blend</b> the mixture on high speed for a few seconds. \n \n We want a smooth overall consistency.",
             "object": [],
             "disableTool": false
         },
         {
-            "title": "Moving to bottling",
-            "instructions": "Cool! Let's move on to bottling now",
+            "title": "Time to bottle up!",
+            "instructions": "Let's move on to <b>bottling</b> now! \n \n Our hot sauce mixture has been blended, and now we can put it in our bottle.",
             "object": [],
             "disableTool": false
         },
         {
-            "title": "Add mixture to bottle",
-            "instructions": "Let's add our hot sauce mixture to the bottle",
+            "title": "Bottling our hot sauce.",
+            "instructions": "Let's add our <b>hot sauce mixture</b> to the bottle. \n \n Our hot sauce will last around 1-3 weeks. Many people also like to <b>ferment their hot sauce</b>, which makes the taste <b>milder</b>, but adds shelf life.",
             "object": ["Hot Sauce Liquid"],
             "disableTool": true
         },
         {
-            "title": "Let's fill it now.",
-            "instructions": "Click fill.",
+            "title": "Filling it up!",
+            "instructions": "Click <b>fill</b> to fill up the bottle with the added mixture. After that, we are done!",
             "object": [],
             "disableTool": false
         },
         {
             "title": "Congrats!",
-            "instructions": "You finished the tutorial! Now click restart to explore or quiz to test yourself.",
+            "instructions": "You finished the tutorial! \n \n Now click <b>restart</b> if you missed anything.  \n \n Click <b>explore</b> if you want to experiment with different ingredients! \n \n <b>Quiz</b> yourself if you think you have a good understanding of the material",
             "object": [],
             "disableTool": false
         }

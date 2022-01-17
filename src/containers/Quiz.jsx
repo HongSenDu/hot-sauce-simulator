@@ -5,7 +5,9 @@ import { useHistory } from "react-router-dom";
 import questionsList from '../data/questions';
 
 const Image = styled.img`
-    width: 30rem;
+    width: 25rem;
+    height:15rem;
+    object-fit:contain;
 `;
 
 const Quiz = ({ correctAnswers, setCorrectAnswers }) => {
@@ -36,14 +38,14 @@ const Quiz = ({ correctAnswers, setCorrectAnswers }) => {
 
     return (
         <Container>
-            <Row className="mt-5 px-5 text-center">
-                <h2 className="text-center m-auto">Quiz</h2>
+            <Row className="my-3 px-5 text-center">
+                <h1 className="text-center m-auto">Quiz</h1>
             </Row>
             {
                 submitted && (
                     <Alert variant={correct ? 'success' : 'danger'}>
                         <strong>{correct ? 'Correct!' : 'Incorrect.'}</strong>
-                        <div>{questions[question].explination}</div>
+                        <div>{questions[question].explanation}</div>
                     </Alert>
                 )
             }
@@ -52,10 +54,10 @@ const Quiz = ({ correctAnswers, setCorrectAnswers }) => {
                     <Image src={questions[question].img} alt={questions[question]} />
                 </Col>
             </Row>
-            <Row className="my-5 text-center">
-                <h1 className="text-center m-auto">{questions[question].question}</h1>
+            <Row className="my-3 text-center">
+                <h2 className="text-center m-auto">{questions[question].question}</h2>
             </Row>
-            <Row className="my-5">
+            <Row className="my-3">
                 {
                     questions[question].options.map((option, index) => (
                         <>
@@ -75,7 +77,7 @@ const Quiz = ({ correctAnswers, setCorrectAnswers }) => {
                     ))
                 }
             </Row>
-            <Row className="mt-5 px-5 d-flex justify-content-center">
+            <Row className="mt-2 px-5 d-flex justify-content-center">
                 {
                     submitted ? (
                         <Button

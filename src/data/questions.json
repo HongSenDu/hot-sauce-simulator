@@ -1,47 +1,97 @@
 {
     "questions": [{
-        "img": "https://hosstools.com/wp-content/uploads/2020/10/long-slim-cayenne-pepper.jpg",
-        "options": [
-            "Jalepeno",
-            "Bell",
-            "Ghost",
-            "Cayenne"
-        ],
-        "question": "What type of pepper is this?",
-        "answer": "Cayenne",
-        "explination": "This is a Cayenne pepper. They have a green stem."
-    }, {
-        "img": "https://tobacconistuniversity.org/images/spice-scale-wm.png",
-        "options": [
-            "The concentration of capsaicinoids",
-            "The number of seeds within a pepper",
-            "A spice taste test score assigned by an expert",
-            "The redness of a given pepper"
-        ],
-        "question": "What determines a pepper's Scoville scale score?",
-        "answer": "The concentration of capsaicinoids",
-        "explination": "The Scoville scale is a measurement of the pungency of chili peppers, as recorded in Scoville Heat Units (SHU), based on the concentration of capsaicinoids, among which capsaicin is the predominant component."
-    }, {
-        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20190628-delish-homemade-apple-cider-ehg-432-square-1562802933.png?crop=1xw:1xh;center,top&resize=480:*",
-        "options": [
-            "Sweet Hot Sauce",
-            "Spicy Hot Sauce",
-            "Tangy Hot Sauce",
-            "Salty Hot Sauce"
-        ],
-        "question": "What kind of hot sauce does apple cider pair best with?",
-        "answer": "Sweet Hot Sauce",
-        "explination": "Since this vinegar is derived from apple cider, it has a sweeter, fruitier taste. It also has an incredibly distinctive flavor (as anyone who’s tried Bragg Organic Apple Cider Vinegar straight-up can attest), while still being softer than white vinegar. Apple cider vinegar pairs best with a sweeter hot sauce. For example, those containing fruit like mango or pineapple."
-    }, {
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGRRdPcyEcIULReluAgmROeXfG1oMFwnPdw&usqp=CAU",
-        "options": [
-            "Ghost Pepper",
-            "Carolina Reaper",
-            "Habanero Pepper",
-            "Scorpion Pepper"
-        ],
-        "question": "Which pepper has the higest scoville scale score?",
-        "answer": "Carolina Reaper",
-        "explination": "Bred in a Rock Hill, South Carolina, greenhouse by 'Smokin' Ed Currie, proprietor of the PuckerButt Pepper Company in Fort Mill, the Carolina Reaper was certified as the world's hottest chili pepper by Guinness World Records on August 11, 2017."
-    }]
+            "img": "https://hosstools.com/wp-content/uploads/2020/10/long-slim-cayenne-pepper.jpg",
+            "options": [
+                "Jalepeno",
+                "Bell",
+                "Ghost",
+                "Cayenne"
+            ],
+            "question": "What type of pepper is this?",
+            "answer": "Cayenne",
+            "explanation": "This is a Cayenne pepper. They have a green stem."
+        },
+        {
+            "img": "https://www.gardeningknowhow.com/wp-content/uploads/2014/08/pepper-seeds-768x1024.jpg",
+            "options": [
+                "To make hot sauce milder",
+                "To better the overall texture",
+                "To not risk negative health effects",
+                "To make hot sauce spicer"
+            ],
+            "question": "When should you remove the the pepper seeds before blending?",
+            "answer": "To better the overall texture",
+            "explanation": "Chili pepper seeds are actually NOT spicy, as they do not contain capsaicin. The biggest reason you may want to remove your pepper seeds before cooking with or eating them is TEXTURE. When you are making a pepper sauce, hot sauce, or anything that blends into a thin or creamy texture, you’ll notice the seeds will float throughout your liquid."
+        },
+        {
+            "img": "https://www.gardeners.com/globalassets/articles/gardening/2014content/8787-hot-sauce-ingredients.jpg",
+            "options": [
+                "Sugar",
+                "Salt",
+                "Vinegar",
+                "Garlic"
+            ],
+            "question": "What ingredient is the most important in hot sauce making?",
+            "answer": "Vinegar",
+            "explanation": "Vinegar drives the flavor of most hot sauces. It adds that unmistakable sour, tangy, and lip-smacking quality. For many, that flavor is indispensable."
+        },
+        {
+            "img": "https://tobacconistuniversity.org/images/spice-scale-wm.png",
+            "options": [
+                "The concentration of capsaicinoids",
+                "The number of seeds within a pepper",
+                "A spice taste test score assigned by an expert",
+                "The redness of a given pepper"
+            ],
+            "question": "What determines a pepper's Scoville scale score?",
+            "answer": "The concentration of capsaicinoids",
+            "explanation": "The Scoville scale is a measurement of the pungency of chili peppers, as recorded in Scoville Heat Units (SHU), based on the concentration of capsaicinoids, among which capsaicin is the predominant component."
+        }, {
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20190628-delish-homemade-apple-cider-ehg-432-square-1562802933.png?crop=1xw:1xh;center,top&resize=480:*",
+            "options": [
+                "Sweet Hot Sauce",
+                "Spicy Hot Sauce",
+                "Tangy Hot Sauce",
+                "Salty Hot Sauce"
+            ],
+            "question": "What kind of hot sauce does apple cider pair best with?",
+            "answer": "Sweet Hot Sauce",
+            "explanation": "Since this vinegar is derived from apple cider, it has a sweeter, fruitier taste. It also has an incredibly distinctive flavor (as anyone who’s tried Bragg Organic Apple Cider Vinegar straight-up can attest), while still being softer than white vinegar. Apple cider vinegar pairs best with a sweeter hot sauce. For example, those containing fruit like mango or pineapple."
+        }, {
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGRRdPcyEcIULReluAgmROeXfG1oMFwnPdw&usqp=CAU",
+            "options": [
+                "Ghost Pepper",
+                "Carolina Reaper",
+                "Habanero Pepper",
+                "Scorpion Pepper"
+            ],
+            "question": "Which pepper has the higest scoville scale score?",
+            "answer": "Carolina Reaper",
+            "explanation": "Bred in a Rock Hill, South Carolina, greenhouse by 'Smokin' Ed Currie, proprietor of the PuckerButt Pepper Company in Fort Mill, the Carolina Reaper was certified as the world's hottest chili pepper by Guinness World Records on August 11, 2017."
+        },
+        {
+            "img": "https://fthmb.tqn.com/P24f6Jc0UVkAfQqibDa8uRNA6ww=/pan-roasted-peppers-482763-step-04-2903628ac0ca438598ba0d7934f276c4.jpg",
+            "options": [
+                "1-3 weeks",
+                "At least 1 month",
+                "3-6 months",
+                "1 year"
+            ],
+            "question": "How long does pan-cooked homemade hot sauce last?",
+            "answer": "1-3 weeks",
+            "explanation": "Quick cook homemade hot sauce using a pan technique lasts in the fridge for 1-3 weeks. A fermented version will last much longer—easily 3-6 months because of beneficial bateria."
+        },
+        {
+            "img": "https://www.feastingathome.com/wp-content/uploads/2018/09/fermented-hot-sauce-101.jpg",
+            "options": [
+                "Makes hot sauce more spicy",
+                "Makes hot sauce more mild",
+                "Makes hot sauce more acidic",
+                "Makes hot sauce more salty"
+            ],
+            "question": "What does fermenting hot sauce do to the taste of hot sauce?",
+            "answer": "Makes hot sauce more spicy",
+            "explanation": "Fermentation tends to mellow out the heat from chili peppers, so that fermented hot sauces tend to be milder in addition to having more flavor. Unfermented hot sauces tend to be hotter since these sauces have not undergone a fermentation process to mellow out the chili peppers."
+        }
+    ]
 }

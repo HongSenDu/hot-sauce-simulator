@@ -1,0 +1,58 @@
+{
+    "general": {
+        "Jalapeno": "added a medium spice level",
+        "Ghost": "added an extreme spice level",
+        "Cayenne": "added a medium-high spice level",
+        "Water": "acted as foundation for sauce",
+        "Vinegar": "added tangly flavor, and served as foundation for sauce",
+        "Onion": "added additional acidic flavoring",
+        "Sugar": "sweetened the sauce",
+        "Salt": "helped bring out flavors of other ingredients",
+        "Apple Cider": "added sweet flavoring",
+        "Garlic": "helped with making sauce more creamy and pungent"
+    },
+    "stage 0": {
+        "Jalapeno": "Frying the jalapeno brought out flavor",
+        "Ghost": "Frying the ghost pepper brought out flavor",
+        "Cayenne": "Frying the cayenne brought out its flavor",
+        "Water": "Using water made sure the peppers did not burn and brought out the pepper's full flavor after simmering",
+        "Vinegar": "helped oxidize the peppers to increase their shelf life",
+        "Onion": "frying onions caramelizes them and added acidity to the peppers",
+        "Sugar": "helped made the peppers sweet",
+        "Salt": "made the other ingredients more flavorful",
+        "Apple Cider": "made overall blend sweeter",
+        "Garlic": "added a potent flavor once cooked together",
+        "missing": {
+            "Water": "Add water during the pan stage next time to help simmer the peppers"
+        }
+    },
+    "stage 1": {
+        "Jalapeno": "try using jalapenos during the frying process instead to bring out the flavors",
+        "Ghost": "try using ghost pepper during the frying process instead to bring out the flavors",
+        "Cayenne": "try using cayenne pepper during the frying process instead to bring out the flavors",
+        "Water": "water helped make the overall sauce more mild",
+        "Vinegar": "vinegar during this stage added acidity to the hot sauce",
+        "Onion": "changed the texture of the sauce, try frying them next time to get rid of the bitter taste",
+        "Sugar": "made blend sweeter",
+        "Salt": "made flavors of sauce even more potent",
+        "Apple Cider": "added sweetness",
+        "Garlic": "try frying garlic first to make it less potent in the sauce",
+        "missing": {
+            "Vinegar": "Add vinegar either during the pan or blending stage next time to emulsify the ingredients"
+        }
+    },
+    "stage 2": {
+        "Jalapeno": "Bottling an entire pepper may not be a good idea. Try frying it next time",
+        "Ghost": "Bottling an entire pepper may not be a good idea. Try frying it next time",
+        "Cayenne": "Bottling an entire pepper may not be a good idea. Try frying it next time",
+        "Water": "made overall sauce more mild and watery",
+        "Vinegar": "made sauce more acidic",
+        "Onion": "It is not a good idea to bottle uncooked onion, try using it during the frying process instead.",
+        "Sugar": "made mixture even sweeter",
+        "Salt": "added saltiness to mixture",
+        "Apple Cider": "added sweetness and made sauce more watery",
+        "Garlic": "It's not a good idea to bottle uncooked garlic, try using it during the frying process.",
+        "missing": {
+        }
+    }
+}
